@@ -2,7 +2,7 @@ import React from 'react';
 import { HeaderContainer, Logo, NavContainer } from './Header.style';
 import { Nav } from './Header.style';
 import { Link } from 'react-router-dom';
-import Agro from '../assets/Img/AGRO-removebg-preview.png';
+import Agro from '../assets/Img/agro.png';
 
 
 const Header = () => {
