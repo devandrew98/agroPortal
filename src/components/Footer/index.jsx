@@ -1,9 +1,13 @@
 import React from 'react';
-const Footer = ({ }) => {
+
+import { FooterContainer } from './Footer.styles';
+
+const Footer = () => {
     return (
-        <div className="Footer">
-            <p>Copyright © 2025 Portal do Agro - UNIPAC - Todos os direitos reservados</p>
-        </div>
-    )
-}
+        <FooterContainer >
+            <p>© 2025 Portal do Agro - UNIPAC - Todos os direitos reservados</p>
+        </FooterContainer>
+    );
+};
+
 export default Footer;
